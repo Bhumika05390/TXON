@@ -1,0 +1,673 @@
+body{
+    
+    min-width: 100%;
+    overflow:auto;
+    
+}
+.typewriter p{
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid skyblue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 ; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(100, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    5% { border-color:gray }
+  }
+#navbar{
+    position: fixed;
+ margin-left: 65%;
+ top: 5%;
+ z-index: 1;overflow: hidden;
+ 
+}
+#logo{
+    position:absolute;
+    width: 10%;
+   margin-left: 10px;
+   height: 50px;
+   left: 10;
+   top: 0;
+   margin-top: 10px;
+   overflow: hidden;
+  
+}
+
+#navitem{
+    margin-right: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#bag{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 620px;
+}
+#h1{
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    font-size: 50px;
+    color: white;
+    overflow: hidden;
+}
+#p1{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    font-size: 17px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    color: white;
+    margin-top: 30px;
+    overflow: hidden;
+}
+#bt1{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    font-size: 19px;
+    color:white;
+    margin-top: 30px;
+    background-color:black;
+    padding:10px 14px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+   
+    
+}
+
+#img1{
+    background-position: 50% 50%; 
+    background-size: 100%;
+     background-repeat: no-repeat; 
+     background-image: url(lg4.png); 
+     position: absolute; 
+     top: 0px; left: 0px;
+      width: 150%;
+       height: 110%; 
+        margin-left: 0px; 
+   z-index: -100;
+   overflow: hidden;
+
+}
+
+
+#img4{
+  
+    background-color: #000; 
+     position: absolute; 
+     top: 0px; left: 0px;
+      width: 2025px;
+       height: 300%; 
+        margin-left: 0px; 
+  
+
+}
+#services{
+    position: absolute;
+    top: 615px;
+    width: 100%;
+    height: 720px;
+    max-width: 100%;
+    left: 0;
+  
+  
+    
+}
+
+#he1{
+    position: relative;
+    left: 550px;
+    font-size: 50px;
+    color: whitesmoke;
+    overflow: hidden;
+}
+#pa1{
+    margin-left: 350px;
+    font-size: 20px;
+    color: grey;
+    overflow: hidden;
+}
+#serviceitem-1{
+    position:absolute;
+    top: 20%;
+    left: 18%;
+    width: 18%;
+    height: 175px;
+    display: flex;
+    background-color:#090909;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+#sh{
+  position: absolute;
+    font-size: 17px;
+   margin-top: 145px;
+    margin-left: 27%;
+    font-size: 18px;
+    color: darkgrey;
+}
+#s{
+    display: inline;
+    width: 40%;
+    height: 60%;
+   margin-left:29%;
+   margin-top: 13%;
+   margin-bottom: 10%;
+   animation: fadeOut 5s;
+}
+@keyframes fadeOut {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+#serviceitem-2{
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    width: 18%;
+    height: 176px;
+    display: flex;
+    background-color: #090909;
+    border: 0.1px solid white;
+    border-radius: 30px;
+}
+#ps{
+    display: inline;
+    width: 40%;
+    height: 57%;
+   margin-left: 30%;
+   margin-top: 12%;
+   margin-bottom: 10%;
+   border-radius: 10%;
+   animation: fadeOut 5s;
+}
+#psh{
+    position: absolute;
+    top: 77%;
+    left: 32%;
+    font-size: 18px;
+    margin-top: 5%;
+    color: darkgrey;
+}
+#serviceitem-3{
+    position:absolute;
+    top: 20%;
+    left: 62%;
+    width: 18%;
+    height: 180px;
+    display: flex;
+    background-color:#090909;
+    border: 0.1px solid white;
+    border-radius: 30px;
+}
+#ag{
+    display: inline;
+    width: 40%;
+    height: 58%;
+   margin-left: 30%;
+   margin-top: 13%;
+   margin-bottom: 10%;
+   border-radius: 10%;
+   animation: fadeOut 5s;
+}
+#agh{
+    position: absolute;
+    top: 76%;
+    left: 32%;
+    font-size: 18px;
+    color: darkgrey;
+}
+#serviceitem-4{
+    position:absolute;
+    top: 50%;
+    left: 18%;
+    width: 18%;
+    height: 179px;
+    display: flex;
+    background-color:#090909;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+#gs{
+    display: inline;
+    width: 40%;
+    height: 60%;
+   margin-left: 30%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   border-radius: 10%;
+   animation: fadeOut 5s;
+}
+#gsh{
+    position: absolute;
+    top: 75%;
+    left: 19%;
+    font-size: 18px;
+    color: darkgrey;
+}
+#serviceitem-5{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    width: 18%;
+    height: 179px;
+    display: flex;
+    background-color:#090909;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    
+}
+#fr{
+    position: relative;
+    width: 40%;
+    height: 60%;
+   margin-left: 30%;
+   margin-top: 10%;
+   margin-bottom: 10%; 
+   border-radius: 10%;
+   animation: fadeOut 5s;
+}
+#frh{
+    position: absolute;
+    top: 75%;
+    left: 34%;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+#e{
+    width:85%;
+    height: 80%;
+    left: 10%; 
+}
+#Gallery{
+    position: absolute;
+    top: 1220px;
+    width: 100%;
+    height: 20%; 
+    left: 0px;
+    border-top: 1px solid grey; 
+}
+
+
+#img2{
+   
+    background-color: #000;
+     position: absolute; 
+     top: 0px; left: 0px;
+      width: 100%;
+       height: 1100%; 
+        margin-left: 0px; 
+   z-index: -100;
+
+}
+#ga{
+    position: relative;
+    left:45%;
+    color: white;
+    margin-top: 30px;
+}
+#Activities{
+    position: absolute;
+    width: 32%;
+    left: 10px;
+    height: 385px;
+    
+    
+}
+#ac{
+    position: relative;
+    top: 5%;
+    width: 300px;
+    margin-left: 3px;
+    margin-right: 10px;
+    height: 190px;
+    margin-top: 20px;
+    border: 0.1px solid white;
+    display: flex;
+    border-radius: 10px;
+    left:30px
+}
+#ac1{
+    position: relative;
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 190px;
+    margin-top: 20px;
+    border: 0.1px solid white;
+    border-radius: 10px;
+    display: flex;
+}
+#ach{
+    position: relative;
+    margin-left: 55%;
+    color: white;
+    margin-top: 10px;
+}
+#Festivals{
+    position: absolute;
+    width: 32%;
+    left: 50%;
+    height: 385px;
+    top: 65px;
+   
+}
+#feh{
+    position: relative;
+    margin-left: 65%;
+    color: white;
+    margin-top: 20px;
+}
+#ar{
+    position: absolute;
+    left: 560px;
+    color: grey;
+    font-size: 18px;
+}
+#ar1{
+    position: absolute;
+   
+    left: 580px;
+    color: grey;
+    font-size: 18px; 
+}
+#acb{
+    position: relative;
+    margin-left: 90%;
+    padding: 5px;
+    background-color:black;
+    border: 0.3px solid white;
+    border-radius: 7px;  
+    color: white;
+    font-size: 13px;
+}
+#feb{
+    position: relative;
+    margin-left: 85%;
+    padding: 5px;
+    background-color:black;
+    border: 0.3px solid white;
+    border-radius: 7px;  
+    color: white;
+    font-size: 13px;
+}
+#AboutUs{
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 380px;
+    left: 0;
+    background-color: #000;
+    border-top: 1px solid grey;
+
+}
+#abb{
+    position:absolute;
+    background-size: 0px;
+    width: 100%;
+    height: 580px;
+}
+#img3{
+    background-position: 50% 50%; 
+   background-color: #000;
+     position: absolute; 
+      width: 100%;
+    margin-left: 0px; 
+   z-index: -100;
+
+}
+#ab{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: 18px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    margin-top: 90px;
+    color: aliceblue;
+    
+}
+#abh{
+        position: relative;
+        top: 10px;
+        left: 420px;
+        font-size: 55px;
+        line-height: 1.4;
+        word-spacing: 2px;
+        margin-top: 30px;
+        color: aliceblue;
+        
+    }
+ #abp{
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    left: 70%;
+    height: 220px;
+    float: left;
+    }
+ #Contact{
+    position: absolute;
+    top: 2650px;
+    width: 100%;
+    height: 640px;
+    left: 0;
+    border-top: 0.1px solid grey;
+    }
+ 
+  #img3{
+        background-position: 50% 50%; 
+        background-color: #000;
+         position: absolute; 
+         top: 0px; left: 0px;
+          width: 100%;
+           height: 90%; 
+       bottom: 0;
+    
+    }
+#cnh{
+        position: absolute;
+        
+        left: 550px;
+        font-size: 55px;
+        line-height: 1.4;
+        word-spacing: 2px;
+        margin-top: 20px;
+        color: aliceblue;
+        
+    }
+ #cn{
+    position: absolute;
+    top: 100px;
+    width: 25%;
+    left: 40%;
+    height: 220px;
+    float: left;
+    font-size: 18px;
+    color: aliceblue;
+    }
+    #cn1{
+        position: absolute;
+        margin-left: 76%;
+        right: 0;
+        top:0%;
+        height: 550px;
+        margin-bottom: 70px;
+       width: 500px;
+
+    }
+    form{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        background-color:black;
+        width: 27%;
+        height: 55%;
+    }
+    #fh{
+        position: relative;
+        left: 0px;
+        margin-left: 10%;
+        top: 10px;
+        color: white;
+    }
+    #inputtype{
+        position: relative;
+        left: 35px;
+        width: 70%;
+        padding: 10px;
+        margin-top: 20px;
+        height: 12px;
+        border: 1px solid white;
+        background-color:black ;
+        border-radius: 20px;
+    
+    }
+    button{
+        position: relative;
+        left:220px;
+        padding: 7px 24px;
+        background-color:black;
+        border: 1px solid white;
+        font-size:16px ;
+        color: white;
+        border-radius: 30px;
+        top:10px;
+        cursor: pointer;
+    }
+    #i1{
+        position: absolute;
+        margin-top: 90px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #i2{
+        position: absolute;
+        margin-top: 100px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #i3{
+        position: absolute;
+        margin-top: 140px;
+        left: 10%;
+        background-color:whitesmoke;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    #ad{
+        position: relative;
+        top: 88px;
+        left: 15%;
+        color: aliceblue;
+    }
+    #adp{
+        position: relative;
+        top: 80px;
+        left: 15%;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    #ph{
+        position: relative;
+        top: 100px;
+        left: 15%;
+        color: aliceblue;
+    }
+    #php{
+        position: relative;
+        top: 90px;
+        left: 15%;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    #em{
+        position: relative;
+        top: 140px;
+        left: 15%;
+        color: aliceblue;
+    }
+    #emp{
+        position: relative;
+        top: 140px;
+        left: 15%;
+        font-size: 18px; 
+        color: aliceblue;
+    }
+    footer{
+        border-top: 1px solid grey;
+        position: absolute;
+        top: 3225px;
+        height:70px ;
+        left: 0;
+        width: 100%;
+        background-color:black;
+    }
+    #fb{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+    }
+    #gh{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        margin-left: 50px;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+    }
+    #ema{
+        position: absolute;
+        top:10px;
+        background-color: white;
+        left:45%;
+        margin-left: 100px;
+        padding: 5px;
+        border-radius: 30px;
+        border: 2px solid grey;
+    }
+    #cpy{
+        
+        position: absolute;
+        top:28px;
+        left:44%;
+        margin-top: 20px;
+       color: darkgrey;
+       
+    }
+
+    
