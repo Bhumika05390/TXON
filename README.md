@@ -8,4 +8,4 @@ In this task,I create a landing web page on Village using basic HTML  And  CSS. 
 In this task,I create a simple Caculator using Basic HTML , CSS and JAVASCRIPT.I divide the Calculator into divisions and use buttons as numbers and operators.I use inputbox to enter the input in HTML.By using CSS I design buttons and design the website.By using Javascript the buttons will work by solve,back,result methods and display the result on inputbox. 
 
 ### Task-03: Creating a to-do List App
-In this,I create a Todo-list using HTML, CSS and JAVASCRIPT.In this app I create an input box to enter tasks and place to view operation and also  Add Task button to add input tasks into the Tasks list.I use crud operation,crud operation means to create,read,update and delete.
+In this task,I create a Todo-list using HTML, CSS and JAVASCRIPT.In this app I create an input box to enter tasks and place to view operation and also  Add Task button to add input tasks into the Tasks list.I use crud operation,crud operation means to create,read,update and delete.
