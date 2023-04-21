@@ -11,7 +11,7 @@ In this task,I create a simple Caculator using  HTML , CSS and JAVASCRIPT.I divi
 In this task,I create a Todo-list using HTML, CSS and JAVASCRIPT.In this app I create an input box to enter tasks and place to view operation and also  Add Task button to add input tasks into the Tasks list.I use crud operation,crud operation means to create,read,update and delete.
 
 ### Task-04: My Portifolio Website
-In this Task,I create my own portifolio website which provides professional,information about an individual and presents a showcase of my work.In this project i create a header section and use a logo which displays the navbar with Home,About,Education,Skills,Resume,Contact.I create a sections on Education,Skills,Resume and Contact which will describes all amy information.While working this I learn more about CSS and HTML and aslo responsibe website design.
+In this Task,I create my own portifolio website which provides professional,information about an individual and presents a showcase of my work.In this project i create a header section and use a logo which displays the navbar with Home,About,Education,Skills,Resume,Contact.I create a sections on Education,Skills,Resume and Contact which will describes all my information.While working this I learn more about CSS and HTML and aslo responsibe website design.
 
 
 ## Successfully
